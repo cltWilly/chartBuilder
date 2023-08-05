@@ -1,0 +1,25 @@
+{
+  "name": "chartbuilder",
+  "version": "1.0.0",
+  "description": "Build Multiple SVG charts from JSON input. Original idea of @milanfon",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cltWilly/chartBuilder.git"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "generator",
+    "svg"
+  ],
+  "author": "cltWilly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cltWilly/chartBuilder/issues"
+  },
+  "homepage": "https://github.com/cltWilly/chartBuilder#readme"
+}

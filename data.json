@@ -1,0 +1,84 @@
+[
+    {
+      "name": "CoD: MW II – 1080p – Balanced preset [FPS]",
+      "cpu": "Intel Core i7-7700K @ 4.20GHz",
+      "gpus": {
+        "gpu1": {
+          "name": "NVIDIA GeForce GTX 1080 Ti",
+          "fps": 22,
+          "fps2": 34
+        },
+        "gpu2": {
+          "name": "NVIDIA GeForce GTX 2080 Ti",
+          "fps": 90,
+          "fps2": 32
+        },
+        "gpu3": {
+          "name": "NVIDIA GeForce GTX 4080",
+          "fps": 67,
+          "fps2": 12
+        },
+        "gpu4": {
+          "name": "NVIDIA GeForce GTX 2070",
+          "fps": 45,
+          "fps2": 53
+        },
+        "gpu5": {
+          "name": "NVIDIA GeForce GTX 3070",
+          "fps": 45,
+          "fps2": 53
+        },
+        "gpu6": {
+          "name": "NVIDIA GeForce GTX 4070",
+          "fps": 45,
+          "fps2": 53
+        },
+        "gpu7": {
+          "name": "NVIDIA GeForce GTX 5070",
+          "fps": 45,
+          "fps2": 53
+        }
+      }
+    },
+    {
+      "name": "CoD: MW II – 1080p – Balanced preset [FPS]",
+      "cpu": "Intel Core i7-1999 @ 4.20GHz",
+      "gpus": {
+        "gpu1": {
+          "name": "NVIDIA GeForce GTX 400 Ti",
+          "fps": 22,
+          "fps2": 34
+        },
+        "gpu2": {
+          "name": "NVIDIA GeForce GTX 30380 Ti",
+          "fps": 90,
+          "fps2": 32
+        },
+        "gpu3": {
+          "name": "NVIDIA GeForce GTX 11001",
+          "fps": 67,
+          "fps2": 12
+        },
+        "gpu4": {
+          "name": "NVIDIA GeForce GTX 2070",
+          "fps": 45,
+          "fps2": 53
+        },
+        "gpu5": {
+          "name": "NVIDIA GeForce GTX 3070",
+          "fps": 45,
+          "fps2": 53
+        },
+        "gpu6": {
+          "name": "NVIDIA GeForce GTX 4070",
+          "fps": 45,
+          "fps2": 53
+        },
+        "gpu7": {
+          "name": "NVIDIA GeForce GTX 5070",
+          "fps": 45,
+          "fps2": 53
+        }
+      }
+    }
+  ]
