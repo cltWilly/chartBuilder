@@ -29,11 +29,13 @@ function generateSvgElements(gpus) {
 }
 
 function generateSvgTemplate(cpu) {
+    //rename cpu paramenter to chart
+    const chart = cpu;
     return `
-      <svg width="800" height="${70 + (Object.keys(cpu.gpus).length * 100)}" xmlns="http://www.w3.org/2000/svg">
-        <text x="20" y="30" font-family="Arial" font-size="20">${cpu.name}</text>
-        <text x="20" y="60" font-family="Arial" font-size="16">${cpu.cpu}</text>
-        ${generateSvgElements(cpu.gpus)}
+      <svg width="800" height="${70 + (Object.keys(chart.gpus).length * 100)}" xmlns="http://www.w3.org/2000/svg">
+        <text x="20" y="30" font-family="Arial" font-size="20">${chart.name}</text>
+        <text x="20" y="60" font-family="Arial" font-size="16">${chart.cpu}</text>
+        ${generateSvgElements(chart.gpus)}
       </svg>
     `;
   }
