@@ -29,7 +29,7 @@ function generateSvgElements(gpus) {
 }
 
 function generateSvgTemplate(cpu) {
-    //rename cpu paramenter to chart
+    //rename cpu from parameter to to chart
     const chart = cpu;
     return `
       <svg width="800" height="${70 + (Object.keys(chart.gpus).length * 100)}" xmlns="http://www.w3.org/2000/svg">
